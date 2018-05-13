@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>手机端页面</title>
+	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=0">
+	<link rel="stylesheet" type="text/css" href="css/gongg.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="font/iconfont.css">
+	<script>
+    window.onload = window.onresize = function(){		 
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+		//找到标签名为html的第一个
+        var _html = document.getElementsByTagName('html')[0];
+		//如果屏幕宽度大于640 
+		//就用 640/16=40
+		//小于640的时候 不确定 也是尺寸/40
+        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+		//最大网页尺寸640 
+		//最大字体（根字体大小） 40
+    }
+</script>
+</head>
+<body>
+	<header>
+		<div class="hea_top">
+			<span class="iconfont icon-fanhui fl fanhui"></span>
+			<h5 class="fl">Woman, Dresses</h5>
+			<span class="iconfont icon-gouwuche2 fr gwc"><i>3</i></span>
+		</div>
+		<div class="hea_btm">
+			<div class="but1 fl"><input type="button" name="">add to wishlist</div>
+			<div class="but2 fr"><input type="button" name="">add to cart</div>
+		</div>
+	</header>
+	<div class="banner">
+		<img src="img/girl.jpg">
+		<p class="text"><span class="fl">Elegant Pink Dresses</span><a href="" class="fr qian">$605,00</a></p>
+	</div>
+	<div class="jia">
+		<p>Description</p>
+	</div>
+	<div class="content">
+		<div class="color">
+			<h6><img src="img/shuidi.png"> Colour :</h6>
+			<p>Choose a colour for item</p>
+			<ul><li><img src="img/duihao.png"></li><li></li><li></li></ul>
+			<span></span>
+		</div>
+		<div class="size">
+			<h6 class="iconfont icon-hangeryijia">   Size :</h6>
+			<p>Size available for this item</p>
+			<ul><li>6</li><li>8</li><li>10</li><li>12</li><li>14</li></ul>
+		</div>
+	</div>
+	<div class="but3"><input type="button" name="">Add to Cart</div>
+	<div class="on">
+		<h3>share on<i></i></h3>
+		<ul>
+			<li><img src="img/one.png">
+				<p><span>205</span></p></li>
+			<li><img src="img/two.png">
+			<p><span>332</span></p></li>
+			<li><img src="img/three.png">
+			<p><span>112</span></p></li>
+		</ul>
+	</div>
+</body>
+</html>

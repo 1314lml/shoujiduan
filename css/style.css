@@ -1,0 +1,225 @@
+@charset 'UTF-8';
+body{
+	background-color: #E8E8E8;
+}
+header{
+	background-color: #38474E;
+}
+.hea_top{
+	height: 2.375rem;
+	line-height: 2.375rem;
+}
+.hea_top h5{
+	font-size: 0.65rem;
+	color: white;
+	font-weight: normal;
+	padding-left: 1.2rem;
+}
+.fanhui{
+	padding-left: 0.6rem;
+}
+.hea_top span i{
+	width: 0.7rem;
+	height: 0.475rem;
+	border-radius: 7px;
+	font-size: 0.3rem;
+	background-color: red;
+	line-height: 0.475rem;
+	position: absolute;
+	left: 0.875rem; top: 0.6rem;
+	text-align: center;
+	background-color: white;
+}
+.gwc{
+	position: relative;
+	padding-right: 1.15rem;
+}
+.hea_btm{
+	height: 1.95rem;
+	padding: 0 0.6rem;
+	font-size: 0.5rem;
+	color: white;
+	line-height: 1.575rem;
+	text-align: center;
+}
+.hea_btm div{
+	width: 7.175rem;
+	height: 1.575rem;
+	border-radius: 3px;
+}
+.but1{
+	background-color: #2D393F;
+}
+.but2{
+	background-color: #F5846A;
+}
+.banner{
+	width: 14.8rem;
+	background-color: white;
+	margin: 0.6rem;
+	font-size: 0.65rem;
+	overflow: hidden;
+}
+.banner img{
+	width: 14.8rem;
+	height: 11.775rem;
+
+}
+.text{
+	height: 1.675rem;
+	line-height: 1.675rem;
+	padding: 0.625rem 0.6rem 0.625rem 1.05rem;
+	font-size: 0.6rem;
+}
+.qian{
+	width: 3.6rem;
+	height: 1.675rem;
+	border-radius:2px;
+	background-color: #BFBFC4;
+	text-align: center;
+	line-height:1.675rem;
+	color: #fff;
+}
+.jia{
+	background-color: white;
+	margin: 0 0.6rem;
+	border-radius:8px;
+	height: 2.6rem;
+	line-height: 2.6rem;
+	font-size: 0.65rem;
+}
+.jia p{
+	background: url('../img/jiahao.jpg') no-repeat left center;
+	margin-left: 1.075rem;
+	padding-left: 1.75rem;
+	background-size: 0.6rem 0.6rem;
+}
+.content{
+	background-color: white;
+	margin: 0.925rem 0.6rem 0 0.6rem;
+	font-size: 0.65rem;
+	line-height: 1.1rem;
+	text-align: center;
+}
+.content p{
+	color: #A5A5AD;
+}
+.content h6{
+	padding-top: 0.75rem;
+	font-size: 0.65rem;
+}
+.color h6 img{
+	width: 0.55rem;
+	height: 0.65rem;
+}
+.color ul{
+	height: 1.775rem;
+	margin-left: 4.125rem;
+	margin-top: 0.625rem;
+}
+.color ul li{
+	width: 1.775rem;
+	height: 1.775rem;
+	float: left;
+}
+.color ul li:nth-child(1){
+	background-color: #EFC9CD;
+}
+.color ul li img{
+	width: 0.7rem;
+	height: 0.7rem;
+	vertical-align: bottom;
+}
+.color ul li:nth-child(2){
+	background-color: #AF6779;
+	margin-left: 0.625rem;
+}
+.color ul li:nth-child(3){
+	background-color: #87A5B1;
+	margin-left: 0.625rem;
+}
+.color span{
+	width: 11.35rem;
+	height: 2px;
+	background-color: #DBDBDB;
+	display: inline-block;
+}
+.size ul{
+	height: 1.775rem;
+	margin-left: 1.15rem;
+	margin-top: 0.625rem;
+	padding-bottom: 1.1rem;
+}
+.size ul li{
+	background-color: #D9D9DD;
+	width: 1.775rem;
+	height: 1.775rem;
+	float: left;
+	margin-left: 0.625rem;
+	line-height: 1.775rem;
+	font-size: 0.3rem;
+
+}
+.size ul li:nth-child(2){
+	background-color: #67AFD5;
+	color: white;
+}
+.but3{
+	width: 6.925rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	text-align: center;
+	color: white;
+	background-color: #394143;
+	margin: 1.575rem 4.425rem 1.85rem 4.65rem;
+	border-radius: 3px;
+	font-size: 0.5rem;
+}
+.on{
+	margin: 0 0.6rem;
+}
+.on ul{
+	height: 1.85rem;
+	margin: 1rem 0 1.375rem 0;
+}
+.on ul li{
+	float: left;
+	width: 3.95rem;
+	height: 1.85rem;
+	font-size: 0.4rem;
+	position: relative;
+}
+.on ul li img{
+	width: 1.85rem;
+	height: 1.85rem;
+}
+.on ul li p{
+	background: url('../img/duihuakuang.png') no-repeat left center;
+	background-size: 1.75rem 0.975rem;
+	width: 1.75rem;
+	position: absolute;
+	top: 0.45rem;left: 2.175rem;
+}
+.on ul li p span{
+	line-height: 0.975rem;
+	margin-left: 0.75rem;
+}
+.on h3{
+	font-size: 0.6rem;
+	position: relative;
+}
+.on h3 i{
+	width: 10.75rem;
+	height: 2px;
+	background-color: black;
+	display: inline-block;
+	position: absolute;
+	top: 0.25rem;left: 3.875rem;
+}
+.on ul li:nth-child(2){
+	margin-left: 1.35rem;
+}
+.on ul li:nth-child(3){
+	margin-left: 1.35rem;
+}
+
